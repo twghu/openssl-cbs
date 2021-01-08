@@ -29,7 +29,7 @@
 #define CBS_ASN1_ENUMERATED 0xau
 #define CBS_ASN1_OCTETSTRING 0x4u
 #define CBS_ASN1_GENERALIZEDTIME 0x18u
-
+#define CBS_ASN1_OBJECT 0x6u
 
 
 //namespace Openssl {
