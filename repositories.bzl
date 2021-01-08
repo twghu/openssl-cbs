@@ -3,9 +3,9 @@ load("@bazel_tools//tools/build_defs/repo:http.bzl", "http_archive")
 def bsslwrapper_repositories(bind = True):
     http_archive(
         name = "bssl_wrapper",
-        strip_prefix = "bssl_wrapper-34df33add45e1a02927fcf79b0bdd5899b7e2e36",
-        url = "https://github.com/bdecoste/bssl_wrapper/archive/34df33add45e1a02927fcf79b0bdd5899b7e2e36.tar.gz",
-        sha256 = "d9e500e1a8849c81e690966422baf66016a7ff85d044c210ad85644f62827158",
+        strip_prefix = "bssl_wrapper-c9649facde3ab1d8bc871c7375a8946c50950e97",
+        url = "https://github.com/maistra/bssl_wrapper/archive/c9649facde3ab1d8bc871c7375a8946c50950e97.tar.gz",
+        sha256 = "d84ea7d190210145695e5b172e8e6fb23f3464360da5efab5a1ae1a973c21f57",
     )
 
     if bind:
